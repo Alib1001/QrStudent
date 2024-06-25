@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332159877755",
+    "project_id": "qrnotifications-ced12",
+    "storage_bucket": "qrnotifications-ced12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332159877755:android:b500b3f7d75a1d9e4a58de",
+        "android_client_info": {
+          "package_name": "com.diplom.qrstudent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvYZibSe1_0KgDmYExfo9TURxHOTxQp7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,136 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">default_channel_id</string>
+
+
+    <string name="app_name">QrStudent</string>
+    <string name="title_id">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_settings">Settings</string>
+
+    <string-array name="languages_array">
+        <item>en</item>
+        <item>kk</item>
+        <item>ru</item>
+    </string-array>
+
+    <string name="iitu_name">International IT University</string>
+    <string name="your_id_card">Your ID Card</string>
+    <string name="group">Group :</string>
+    <string name="scan_the_qr">Scan the QR to enter</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="change_password">Change password</string>
+    <string name="str_language">Language</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="log_off">Log off</string>
+    <string name="more">More</string>
+    <string name="about_us_title">About us</string>
+    <string name="privacy_policy_title">Privacy policy</string>
+    <string name="terms_and_conditions_title">Terms and conditions</string>
+    <string name="name_surname">Name Surname</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="menu_rooms">Rooms</string>
+    <string name="menu_news">News</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="str_verify">Verify</string>
+    <string name="go_to_main">Return to home</string>
+
+    <string name="busy_label">Busy:</string>
+    <string name="room_label">Room:</string>
+    <string name="frame_label">Frame:</string>
+    <string name="busy_true">Room is busy</string>
+    <string name="busy_false">Room is not busy</string>
+    <string name="attendance_true">Attendance is set</string>
+    <string name="attendance_false">Lesson skipped</string>
+    <string name="attendance_soon">Lesson upcoming</string>
+    <string name="attendance_percentage">Attendance Percentage</string>
+
+    <string name="privacy_policy_last_update">Last Updated: April 26, 2024</string>
+    <string name="about_us">
+        <b>Project prepared by:</b> \n\n
+        Alibek Nurdaulet
+
+    </string>
+
+    <string name="privacy_policy_content">
+        <b>Welcome to the QrTeacher app!\n\n</b>
+    At QrTeacher, we value your trust and we do everything we can to protect your privacy. Our privacy policy explains how we collect, use, and disclose your personal information when you use our app.\n\n
+    <b>Information We Collect</b>\n\n
+    The QrTeacher app uses various technologies to collect information, which may include:\n\n
+    <b>Information You Provide:</b> When using the QrTeacher app, we may ask you to provide certain personal information, including your name, email address, and other contact information.\n\n
+    <b>Device Information:</b> We may collect information about the device you use to access our app, including device model, unique device identifier, operating system, and similar data.\n\n
+    <b>Usage Information:</b> We may collect information about how you use our app, including information about the time spent in the app and actions taken within the app.\n\n
+    <b>Information Collected Using Cookies and Similar Technologies:</b> We and our analytics partners use various technologies to collect information when you interact with our app, including cookies and similar technologies.\n\n
+    <b>Use of Collected Information</b>\n\n
+    We use the information we collect, including personal information collected from your device, for the following purposes:\n\n
+    • Providing and supporting our app;\n
+    • Providing you with the ability to use features of our app;\n
+    • Analyzing usage trends of our app;\n
+    • Improving the quality of our app and developing new features;\n
+    • Ensuring the security of our app and users;\n
+    • Communicating with you.\n\n
+    <b>Disclosure of Information</b>\n\n
+    We may disclose the information we collect, including your personal information, in the following ways:\n\n
+    • <b>Service Providers:</b> We may disclose your personal information to service providers who assist us in providing and supporting our app.\n
+    • <b>As Required by Law:</b> We may disclose your personal information in cases where it is required by law or in response to a legal request.\n
+    • <b>Security and Protection:</b> We may disclose your personal information to protect the security of our app and users, as well as to protect rights and property.\n\n
+    <b>Information Retention</b>\n\n
+    We will only retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless otherwise required or permitted by law.\n\n
+    <b>Your Rights and Choices</b>\n\n
+    You have the right to request access to your personal information that we store and to correct, update, or delete this information. You can also opt out of receiving communications from us by contacting us at "urasgaliev@gmail.com".\n\n
+    <b>Contact Us</b>\n\n
+    If you have any questions or suggestions regarding our Privacy Policy, please feel free to contact us at "urasgaliev@gmail.com".
+</string>
+
+    <string name="terms_and_conditions">
+    <b>Terms and Conditions</b> \n
+
+    1. <b>Acceptance of Terms</b>
+
+    By installing and using the QrTeacher application, you agree to the terms outlined in these Terms and Conditions.\n
+
+    2. <b>Personal Information</b> \n
+
+    You agree to provide accurate, complete, and up-to-date information about yourself as required in the process of using the QrTeacher application and to update this information as needed. \n
+
+    3. <b>Use of the Application</b> \n
+
+    You agree to use the QrTeacher application only for lawful purposes and in accordance with these Terms and Conditions. \n
+
+    4. <b>Liability</b> \n
+
+    We are not liable for any damages you may incur as a result of using our QrTeacher application. \n
+
+    5. <b>Changes to Terms and Conditions</b> \n
+
+    We reserve the right to make changes to these Terms and Conditions from time to time. Changes take effect from the moment they are published. \n
+
+    6. <b>Intellectual Property Rights</b> \n
+
+    All intellectual property rights to the QrTeacher application, including but not limited to copyrights, patents, trademarks, and trade secrets, belong to QrTeacher company. You agree not to interfere with any intellectual property rights, including authorship rights, associated with the QrTeacher application. \n
+
+    7. <b>Termination of Application Use</b> \n
+
+    We reserve the right, at our discretion, to suspend or terminate your access to the QrTeacher application without prior notice or explanation, for any reason and at any time. \n
+
+    8. <b>Consent to Receive Notifications</b> \n
+
+    You agree to receive notifications from us related to the use of the QrTeacher application, including advertising notifications, at your email address or through the application itself. \n
+
+    9. <b>Legislation and Jurisdiction</b> \n
+
+    These Terms and Conditions are governed and interpreted in accordance with the legislation of Kazakstan. In the event of disputes, you agree to submit to the exclusive jurisdiction of the courts of Kazakstan. \n
+
+    10. <b>Contact Us</b> \n
+
+    If you have any questions or comments regarding our Terms and Conditions, please contact us at support@qrteacher.com. \n
+
+    11. <b>Additional Terms</b> \n
+
+    Any breach of our terms and conditions may result in the termination of your access to the QrTeacher application. We reserve the right to take necessary measures to protect our rights and interests in the event of your violation of our Terms and Conditions. \n
+
+    12. <b>Entire Agreement</b> \n
+
+    These Terms and Conditions constitute the entire agreement between you and QrTeacher company regarding the use of the QrTeacher application and replace all previous and existing agreements and proposals, oral or written, between you and QrTeacher. \n
+</string>
+</resources>

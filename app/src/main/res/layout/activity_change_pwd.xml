@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Activities.LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:titleTextColor="@android:color/white" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textViewChangePwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="Change Password"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/newLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/etext_person"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/inter_medium"
+            android:hint="Username"
+            android:paddingLeft="30dp" />
+
+        <EditText
+            android:id="@+id/oldPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/et_lock"
+            android:drawableRight="@drawable/no_eye_et"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/inter_medium"
+            android:hint="Old password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp" />
+
+        <EditText
+            android:id="@+id/newPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="45dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/et_lock"
+            android:drawableRight="@drawable/no_eye_et"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/inter_medium"
+            android:hint="New password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/inter_medium"
+            android:text="Confirm"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/bottomTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center"
+            android:text="Reset Password"
+            android:textColor="?attr/colorPrimary"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/eclipse_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ellipse_bottom"/>
+
+
+</RelativeLayout>

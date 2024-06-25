@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/inter_bold</item>
+        <item>@font/inter_extrabold</item>
+        <item>@font/inter_medium</item>
+        <item>@font/inter_thin</item>
+        <item>@font/kameron</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/montserrat_alternates_medium</item>
+        <item>@font/montserrat_thin</item>
+        <item>@font/roboto_slab</item>
+    </array>
+</resources>

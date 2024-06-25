@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#B1040E</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_red">#e9b3b6</color>
+    <color name="purple_200">#e9b3b6</color>
+    <color name="purple_700">#e9b3b6</color>
+    <color name="teal_200">#e9b3b6</color>
+    <color name="colorAccentDark">#FF5722</color>
+    <color name="colorDark">#303030</color>
+    <color name="colorGreen">#0e820e</color>
+
+    <color name="dark_background">#000000</color>
+    <color name="dark_bottom_navigation_item_color">#FFFFFF</color>
+</resources>

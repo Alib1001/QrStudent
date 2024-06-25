@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.StartActivity">
+
+    <ImageView
+        android:id="@+id/logoImgView"
+        android:layout_width="348dp"
+        android:layout_height="445dp"
+        android:src="@drawable/iitu_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"/>
+
+    <ImageButton
+        android:id="@+id/goBtn"
+        android:layout_width="96dp"
+        android:layout_height="93dp"
+        android:background="@drawable/ic_go"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"/>
+
+    <ImageView
+        android:id="@+id/bottomImgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_bottom_2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/ellipse_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ellipse_top"/>
+
+
+
+    <ImageView
+        android:id="@+id/iitu_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/iitu_logo"
+
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/iitu_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/iitu_name" />
+
+    <TextView
+        android:id="@+id/idCardTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/your_id_card"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/innerRelative"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/idCardTextview"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/shape1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape1"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profileImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:src="@drawable/ic_launcher_foreground"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/kameron"
+            android:gravity="center"
+            android:text="Name Surname"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewUserType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Usertype"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTextview"
+            android:layout_width="263dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/textViewUserType"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="ID №     :1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/groupTextView"
+            android:layout_width="260dp"
+            android:layout_height="34dp"
+            android:layout_below="@id/idTextview"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="@string/group"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/shape2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shape2"
+            android:scaleType="fitXY"
+            android:layout_below="@id/groupTextView" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/scanTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/innerRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="@string/scan_the_qr"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/scanBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/scanTextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/oval_btn"
+        android:src="@drawable/qr_img" />
+
+</RelativeLayout>
